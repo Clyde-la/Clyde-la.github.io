@@ -1,4 +1,4 @@
-title: Hello, w
+title: clyde's blog
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -11,15 +11,15 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Clyde La # add your name
 author-img: clyde.jpg # add your photo
-about-author: 有这种“自己又给人添麻烦了”的想法的人，都很敏感善良吧……  # add description
+about-author: 有这种“自己又给人添麻烦了”的想法的人，都很敏感善良吧。。。  # add description
 social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+social-facebook: https://github.com/Clyde-la/Clyde-la.github.io  # add your Facebook handle
 social-github: Clyde-la # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: # add your Email address
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+# Disqus 底部评论
+discus-identifier: #mr-brown # add your discus identifier 
 
 # Tracker
 analytics: # Google Analytics
@@ -29,7 +29,7 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
+#  - jemoji
 
 paginate: 8
 paginate_path: "/page/:num"
